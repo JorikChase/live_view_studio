@@ -1,0 +1,30 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This file is for your main application CSS */
+html, body{
+    overflow: hidden;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    transition: background-color 2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttonWrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controlButton{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em .6em;
+    margin: 0.5em;
+    border-radius: 5px;
+    color: #e2e8f0;
+    transition: background-color 2s ease;
+}
