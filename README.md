@@ -16,3 +16,6 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
   * Docs: https://hexdocs.pm/phoenix
   * Forum: https://elixirforum.com/c/phoenix-forum
   * Source: https://github.com/phoenixframework/phoenix
+
+
+style={"background-color: rgba(#{(@brightness/100)*255}, #{(@brightness/100)*255}, #{(@brightness/100)*255}, 1)"}
