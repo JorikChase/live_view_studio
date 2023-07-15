@@ -201,6 +201,30 @@ grid-item {
   justify-content: center;
   align-content: center;
 }
+.zustanme{
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+  width: 100%;
+  padding: 1ems;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+}
+.zustanme > div{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.zustanme > img {
+  object-fit: contain;
+}
+.zustanme form .button{
+  padding: 0.5em 1em;
+  border-radius: 20px;
+background: rgba(255, 15, 15, 0.8);
+}
 @media only screen and (max-width: 768px) {
   .navMap {
     display: flex;
@@ -210,6 +234,9 @@ grid-item {
     flex-direction: column;
   }
   .rekli {
+    flex-direction: column;
+  }
+  .zustanme{
     flex-direction: column;
   }
 }

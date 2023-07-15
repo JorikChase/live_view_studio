@@ -24,6 +24,7 @@ defmodule LiveViewStudioWeb.Router do
     live "/nav", NavLive
     live "/kdo", KdoLive
     live "/rekli", RekliLive
+    live "/zustanme", ZustanmeLive
   end
 
   # Other scopes may use custom stacks.
