@@ -11,7 +11,7 @@ defmodule LiveViewStudioWeb.KdoLive do
     <div class="kdo">
       <div class="kdoText">
         <h3>KDO JSME</h3>
-        <p>moris piktus no hombres allos novadum, ilyyy sooo much</p>
+        <p>moris piktus no hombres allos novadum, ilyyy sooo much!!</p>
         <div>
           <a href="###">
             O nás
