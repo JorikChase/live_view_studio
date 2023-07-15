@@ -292,6 +292,26 @@ grid-item {
   font-size: 1.5em;
   border-radius: 10px;
 }
+.seznamLokalit{
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 100%;
+  padding: 1ems;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+}
+.seznamLokalit > div{
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+.seznamLokalit > div > div{
+  display: flex;
+  flex-direction: column;
+  padding: 0 1em;
+}
 @media only screen and (max-width: 768px) {
   .navMap {
     display: flex;
@@ -305,5 +325,8 @@ grid-item {
   }
   .zustanme {
     flex-direction: column;
+  }
+  .seznamLokalit > div > img{
+    display: none;
   }
 }
