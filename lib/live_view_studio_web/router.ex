@@ -27,6 +27,8 @@ defmodule LiveViewStudioWeb.Router do
     live "/zustanme", ZustanmeLive
     live "/socky", SockyLive
     live "/seznamLokalit", SeznamLokalitLive
+    live "/kurzCta", KurzCtaLive
+  #  live "/flightSimulatorLive", FlightSimulatorLive
   end
 
   # Other scopes may use custom stacks.
