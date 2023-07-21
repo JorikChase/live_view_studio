@@ -8,7 +8,7 @@ defmodule LiveViewStudioWeb.LokalitaMapLive do
 
   def render(assigns) do
     ~H"""
-    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CcaEDYZ4A5xQ0sTvV1ljmHGzdSdy2kI&ehbc=2E312F" width="640" height="480" disableDefaultUI: true></iframe>
+    <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CcaEDYZ4A5xQ0sTvV1ljmHGzdSdy2kI&ehbc=2E312F" width="640" height="480"></iframe>
     """
   end
 end
