@@ -28,6 +28,8 @@ defmodule LiveViewStudioWeb.Router do
     live "/socky", SockyLive
     live "/seznamLokalit", SeznamLokalitLive
     live "/kurzCta", KurzCtaLive
+    live "/nasiItem", NasiItemLive
+
   #  live "/flightSimulatorLive", FlightSimulatorLive
   end
 
