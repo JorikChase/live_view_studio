@@ -29,6 +29,8 @@ defmodule LiveViewStudioWeb.Router do
     live "/seznamLokalit", SeznamLokalitLive
     live "/kurzCta", KurzCtaLive
     live "/nasiItem", NasiItemLive
+    live "/lokalitaMap", LokalitaMapLive
+    live "/lokalitaDetailInfo", LokalitaDetailInfoLive
 
   #  live "/flightSimulatorLive", FlightSimulatorLive
   end

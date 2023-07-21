@@ -403,7 +403,16 @@ nav:hover section{
 }
 .nasiItemWrap:hover .nasiItemInfo{
   display: flex;
-  
+}
+
+.lokalitaDetailRow{
+  display: flex;
+  width: 770px;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 15px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.03);
 }
 
 
