@@ -18,10 +18,11 @@ defmodule LiveViewStudioWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    live "/nav", NavLive
+    live "/menu", MenuLive
     live "/light", LightLive
     live "/aktuality", AktualityLive
     live "/contact", ContactLive
-    live "/nav", NavLive
     live "/kdo", KdoLive
     live "/rekli", RekliLive
     live "/zustanme", ZustanmeLive
