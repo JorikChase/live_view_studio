@@ -5,7 +5,7 @@ defmodule LiveViewStudio.MixProject do
     [
       app: :live_view_studio,
       version: "0.1.0",
-      elixir: "~> 1.11",  # Changed the Elixir version to ~> 1.11
+      elixir: "~> 1.15.4",  # Changed the Elixir version to ~> 1.11
       elixirc_paths: elixirc_paths(Mix.env()),
       start_permanent: Mix.env() == :prod,
       aliases: aliases(),
