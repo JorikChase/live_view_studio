@@ -3,11 +3,7 @@
     "version": "1.0.0",
     "private": true,
     "scripts": {
-      "watch": "esbuild --watch",
-      "build": "esbuild"
-    },
-    "devDependencies": {
-      "esbuild": "^0.12.28" 
+      "build": "npm run build"
     }
   }
   
